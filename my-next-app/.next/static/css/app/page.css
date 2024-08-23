@@ -1,0 +1,311 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/cards.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+/* src/components/HomePage.module.css */
+.cards_container__dXDe4 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .cards_cardsSection__SpVZi {
+    display: grid;
+    width: 70%; /* Cards take up 70% of the width */
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px;
+  }
+  
+  .cards_card__V6119 {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .cards_cardImage__nlyyR {
+    width: 100%;
+    border-radius: 10px;
+    background-color: red;
+    height: 250px; /* Fixed height for images */
+    
+  }
+  
+  .cards_cardText__ZTTeo {
+    padding: 15px;
+    font-size: 1rem;
+    height: 90px;
+  
+  }
+  
+  .cards_mapSection__0ACzP {
+    width: 30%; /* Map takes up 30% of the width */
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cards_mapPlaceholder__eSemH {
+    width: 100%;
+    height: 500px; /* Adjust the height as needed */
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/categories.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/* .categoriesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.categoryItem {
+  position: relative;
+  width: 180px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.categoryHeader {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.categoryHeader:hover {
+  background-color: #f0f0f0;
+}
+
+.icon {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.subcategoriesPopup {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 100;
+  width: 200px;
+}
+
+.subcategoryItem {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.subcategoryItem:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.subcategoryItem:hover {
+  background-color: #e8e8e8;
+}
+
+.active .categoryHeader {
+  background-color: #e0e0e0;
+} */
+
+.categories_categoriesContainer__6mfWN {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories_categoryItem__Cq5Z9 {
+  position: relative;
+  width: 180px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.categories_categoryHeader__vcgV5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+  height:95%;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.categories_categoryHeader__vcgV5:hover {
+  background-color: #f0f0f0;
+}
+
+.categories_icon__WcRL_ {
+  font-size: 28px;
+  margin-bottom: 5px; /* Adjust spacing between icon and text */
+}
+
+.categories_title___7K3p {
+  font-size: 14px;
+}
+
+.categories_subcategoriesPopup__gG9ug {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 100;
+  width: 250px;
+}
+
+.categories_subcategoryItem__tCZMd {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.categories_subcategoryItem__tCZMd:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.categories_subcategoryItem__tCZMd:hover {
+  background-color: #e8e8e8;
+}
+
+.categories_active__Wuk87 .categories_categoryHeader__vcgV5 {
+  background-color: #e0e0e0;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/HomePage.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+/* src/components/HomePage.module.css */
+.HomePage_container__3lXlZ {
+  text-align: center;
+  padding: 10px;
+  max-width: 1800px; /* Optional: Limit the maximum width for desktop view */
+  margin: 0 auto;
+}
+
+.HomePage_imageContainer__Htv8m {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.HomePage_image__i9AYW {
+  width: 100%;
+  height: 40vh; /* Fixed height: 30% of the viewport height */
+  object-fit: cover; /* Ensures the image covers the container */
+  border-radius: 15px;
+}
+
+.HomePage_overlayText__3Oby3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+ 
+  padding: 10px 20px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+/* src/components/HomePage.module.css */
+.HomePage_optionsContainer__Z31jD {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; /* Adjust the width as needed */
+  max-width: 400px;
+  padding: 10px;
+  background-color: #c0c0c0;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(67, 67, 67, 0.1);
+  margin: 20px auto; /* Center the container horizontally */
+  font-family: Arial, sans-serif;
+}
+
+.HomePage_optionItem__A2k7o {
+  flex: 1; /* Each option takes equal space */
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fffdfd;
+  padding: 10px;
+  
+  cursor: pointer;
+}
+
+.HomePage_optionItem__A2k7o:not(:last-child) {
+  border-right: 1px solid #ddd; /* Adds a separator line between the options */
+}
+
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Pagination.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/* src/components/Pagination.module.css */
+.Pagination_container__sX7np {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Pagination_pagination__Rj45A {
+  display: flex;
+  gap: 5px;
+}
+
+.Pagination_pageButton__UH6Ry {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Pagination_pageButton__UH6Ry:hover {
+  background-color: #e0e0e0;
+}
+
+.Pagination_activePage__2_wBb {
+  background-color: #0070f3;
+  color: white;
+  border: 1px solid #0070f3;
+}
+
