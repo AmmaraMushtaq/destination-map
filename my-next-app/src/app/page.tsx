@@ -9,9 +9,9 @@ const Page = async () => {
     <div>
    
       <Home></Home> {/* Client Component */}
-      <Categories />
-      <Cards/>
-      <Pagination/>
+     <Categories />
+        <Cards/>
+       <Pagination/>  
     </div>
   );
 };

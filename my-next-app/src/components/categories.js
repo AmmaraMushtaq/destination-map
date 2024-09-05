@@ -53,28 +53,28 @@ const categories = [
   {
     title: "Nature & Sightseeing",
     icon: faTree,
-    subcategories: ["Beaches", "Birdwatching", "Sightseeing","Stanley Park"],
+    subcategories: ["Parks", "Wildlife Tours", "Scenic Drives"],
   },
   {
     title: "Outdoor Tours",
     icon: faHiking,
-    subcategories: ["Boating,Fishing, & yacht","Dinner cruises & charters", "walking tours","Food & drink tours", "Whale watching"],
+    subcategories: ["Hiking", "Biking", "Guided Tours"],
   },
   {
     title: "Shopping & Entertainment",
     icon: faShoppingCart,
-    subcategories: ["comedy", "Music", "Nightlife","Shopping","Sporting events"],
+    subcategories: ["Malls", "Cinemas", "Theaters"],
   },
   {
     title: "Wellbeing",
     icon: faSpa,
-    subcategories: ["Spas", "Beaches", "cycling & mountain biking","Hiking","Walking tours","Water sports"],
+    subcategories: ["Spas", "Yoga", "Meditation"],
   },
-  // {
-  //   title: "Search",
-  //   icon: faSearch,
-  //   subcategories: [],
-  // },
+  {
+    title: "Search",
+    icon: faSearch,
+    subcategories: [],
+  },
 ];
 
 const Categories = () => {
